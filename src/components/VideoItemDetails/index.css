@@ -1,0 +1,197 @@
+.titleDark {
+  color: #f8fafc;
+}
+
+.titleLight {
+  color: #475569;
+}
+
+.active {
+  color: #2563eb;
+}
+
+.hrLight {
+  color: #231f20;
+}
+.hrDark {
+  color: #64748b;
+}
+
+.channelLight {
+  color: #00306e;
+}
+.channelDark {
+  color: #f9f9f9;
+}
+.description {
+  font-weight: 400;
+}
+
+.channelImg {
+  height: 60px;
+  width: 60px;
+}
+
+.sub_div {
+  display: flex;
+  gap: 20px;
+}
+
+.sub_div {
+  padding: 10px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.failureLight {
+  color: #1e293b;
+}
+
+.failureDark {
+  color: #fff;
+  background-color: #231f20;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-family: Roboto;
+  }
+  .videoPlayer {
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .videoTitle {
+    margin: 10px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .details_container {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .buttons_div {
+    display: flex;
+    margin-right: 10px;
+    gap: 20px;
+  }
+
+  .button {
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-family: Roboto;
+    cursor: pointer;
+    font-size: 15px;
+    color: #64748b;
+  }
+
+  .buttonIcons {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .videoPlayer {
+    margin-left: 16%;
+    font-family: Roboto;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 80%;
+  }
+  .videoTitle {
+    margin: 10px;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .details_container {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buttons_div {
+    display: flex;
+    margin-right: 30px;
+    gap: 20px;
+  }
+
+  .button {
+    background-color: transparent;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 15px;
+    color: #64748b;
+  }
+
+  .buttonIcons {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .failure_view_container {
+    text-align: center;
+    font-family: Roboto;
+    height: 100vh;
+    margin: auto;
+  }
+  .failure_img {
+    height: 400px;
+    width: 50%;
+    margin-top: 50px;
+  }
+  .failure_heading {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .failure_para {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .failure-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    gap: 8px;
+    width: 120px;
+    height: 32px;
+    background: #4094ef;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-style: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    margin: auto;
+  }
+
+  .videos_container {
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

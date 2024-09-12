@@ -1,0 +1,40 @@
+.gaming_item_container {
+  width: 30%;
+  list-style: none;
+  margin-left: 10px;
+}
+.gamingTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+.gamingViews {
+  color: #64748b;
+}
+@media screen and (max-width: 767px) {
+  .gamingImg {
+    height: 250px;
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .gaming_item_container {
+    width: 25%;
+    list-style: none;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .gamingImg {
+    height: 300px;
+    width: 100%;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .gaming_item_container {
+    width: 40%;
+    list-style: none;
+  }
+}

@@ -1,0 +1,273 @@
+.headerLight {
+  background-color: #fff;
+  color: #000;
+}
+
+.headerDark {
+  background-color: #000;
+  color: #fff;
+}
+
+.linksLight {
+  color: #475569;
+}
+
+.linksDark {
+  color: #f1f5f9;
+}
+
+.desktopThemeLight {
+  color: #475569;
+  background-color: #fff;
+}
+
+.desktopThemeDark {
+  color: #f1f5f9;
+  background-color: #000;
+}
+
+.logoutLight {
+  color: #3b82f6;
+  border: 1px solid #3b82f6;
+}
+
+.logoutDark {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.popup-content {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+}
+.popup-content p {
+  padding: 10px;
+  color: #475569;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.pop-up-button_div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.cancel-button {
+  background-color: transparent;
+  border: 1px solid #475569;
+  border-radius: 5px;
+  height: 36px;
+  width: 100px;
+  color: #94a3b8;
+}
+.logout-button {
+  background-color: #3b82f6;
+  border-style: none;
+  border-radius: 5px;
+  height: 36px;
+  width: 100px;
+  color: white;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 767px) {
+  .mobile_container {
+    display: none;
+  }
+
+  .header_container {
+    position: fixed;
+    width: 100%;
+  }
+
+  .desktop-menu {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .menu_bar {
+    display: none;
+  }
+
+  .desktop_container {
+    font-family: Roboto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logoImg {
+    height: 30px;
+    width: 150px;
+  }
+
+  .links_mobile_bar {
+    display: flex;
+    gap: 40px;
+  }
+
+  .hamburgerIcon {
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+  }
+
+  .profile_img {
+    height: 35px;
+    width: 35px;
+  }
+
+  .logout_button {
+    height: 36px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Roboto;
+  }
+
+  .menu_bar {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+  }
+
+  .menu_bar li {
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  .icons {
+    height: 25px;
+    width: 25px;
+  }
+
+  .active-link {
+    color: #ff0b37;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .link_item {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .linkIcons {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .links_mobile_bar {
+    display: flex;
+    gap: 70px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 10px 20px;
+    align-items: center;
+    width: 100%;
+  }
+  .desktop_container {
+    display: none;
+  }
+
+  .logoImg {
+    height: 30px;
+    width: 150px;
+  }
+  .links_mobile_bar {
+    font-family: Roboto;
+    display: flex;
+    gap: 30px;
+    width: 120px;
+    height: 40px;
+    align-items: center;
+  }
+  .links_mobile_bar button {
+    height: 20px;
+    width: 20px;
+  }
+  .hamburgerIcon {
+    background-color: transparent;
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+
+  .menu_bar {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto;
+  }
+
+  .menu_bar li {
+    display: flex;
+    gap: 40px;
+    padding-left: 20px;
+    align-items: center;
+  }
+
+  .icons {
+    height: 20px;
+    width: 20px;
+  }
+
+  .active-link {
+    color: #ff0b37;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .link_item {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .logout_button {
+    background-color: transparent;
+    border-style: none;
+    height: 30px;
+    width: 40px;
+  }
+
+  .linkIcons {
+    height: 25px;
+    width: 25px;
+  }
+
+  .desktop-menu {
+    display: none;
+  }
+}
